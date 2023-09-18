@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercise1 {
+public class Exercise2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -35,10 +35,10 @@ public class Exercise1 {
             System.out.println("Test case: "+(i+1));
             System.out.println("Rectangle 1: "+rectangles_t1[i].toString());
             System.out.println("Rectangle 2: "+rectangles_t2[i].toString());
-            System.out.println("Is Rectangle 2 contained in Rectangle 1? "+rectangles_t1[i].contains(rectangles_t2[i])+"\n");
+            System.out.println("Is Rectangle 2 contained in Rectangle 1? "+rectangles_t1[i].contains(rectangles_t2[i]));
+            System.out.println("Is Rectangle 2 touching Rectangle 1? "+rectangles_t1[i].touches(rectangles_t2[i])+"\n");
 
         }
 
     }
-
 }
