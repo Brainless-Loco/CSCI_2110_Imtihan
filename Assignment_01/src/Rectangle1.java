@@ -2,7 +2,7 @@ public class Rectangle1{ //instance variables
     private int xpos, ypos, width, height;
     //constructors
     public Rectangle1(){}
-        public Rectangle1(int xpos, int ypos, int width, int height){
+    public Rectangle1(int xpos, int ypos, int width, int height){
         this.xpos=xpos; this.ypos=ypos; this.width=width; this.height=height;
     }
     //setters and getters public void setX(int xpos){this.xpos=xpos;}
