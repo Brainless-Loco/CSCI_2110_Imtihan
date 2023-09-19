@@ -23,7 +23,8 @@ public class Circle {
         this.radius = radius;
     }
     public boolean contains(Circle c){
-        if(c.getXpos()+c.getRadius()<xpos+radius && c.getXpos()-c.radius>xpos-radius){
+        if(c.getXpos()+c.getRadius()<xpos+radius && c.getXpos()-c.getRadius()>xpos-radius
+                && c.getYpos()+c.getRadius()<ypos+radius && c.getYpos()-c.getRadius()>ypos+radius){
             return true;
         }
         else return false;
