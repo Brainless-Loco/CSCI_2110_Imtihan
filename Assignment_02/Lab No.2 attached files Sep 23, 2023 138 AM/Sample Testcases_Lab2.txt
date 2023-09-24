@@ -1,0 +1,66 @@
+-----> A sample run of the program would look as follows:
+
+-----> Exercise1 (Point Class)
+
+Enter integer coordinates x and y: 23 400
+Enter double coordinates x and y: 2.45 0.01
+Enter String coordinates x and y: somewhere elsewhere
+
+XPOS: 23 YPOS: 400
+XPOS: 2.45 YPOS: 0.01
+XPOS: somewhere YPOS: elsewhere
+
+------> Exercise 2 (Generic Stack): A sample test case for GenericStackDemo is given below.
+
+Halifax Montreal Toronto Calgary Vancouver quit
+
+10 534 678 90008 52 3 20 34 -1
+
+String Stack Contents:
+Vancouver
+Calgary
+Toronto
+Montreal
+Halifax
+
+Integer Stack Contents:
+34
+20
+3
+52
+90008
+678
+534
+10
+
+-------> Exercise3 (Student Records): 
+
+--> Format of StudentList.txt
+
+Ichabod Crane 123456
+Brom Bones 456321
+Emboar Pokemon 111222
+Rayquazza Pokemon 333111
+Cool Dude 101010
+Trend Chaser 654321
+Chuck Norris 112233
+Drum Dude 111222
+
+--> A sample test run (for the input file StudentList.txt) is given below:
+
+Enter the name of the input file: StudentList.txt
+Crane
+Bones
+Pokemon
+Pokemon
+Dude
+Chaser
+Norris
+Dude
+
+
+
+
+
+
+

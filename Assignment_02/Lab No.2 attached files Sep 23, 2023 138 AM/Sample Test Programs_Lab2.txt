@@ -1,0 +1,124 @@
+------> Exercise 0 (Review – no marks)
+
+public class Grade<T>{
+private T value;
+
+public Grade(T entry){
+value =  entry;
+}
+
+public T getValue(){
+return  value;
+}
+
+public void setValue(T entry){
+value = entry;
+}
+
+public String toString(){
+return ""+value;
+}
+}
+
+//Demo class
+public class Exercise0{
+public static void main(String[] args){
+
+Grade<String> m1 = new Grade<String>("A+");
+Grade<Integer> m2 = new Grade<Integer>(91);
+
+System.out.println(m1);
+System.out.println(m2);
+
+m1.setValue("B+");
+m2.setValue(78);
+
+System.out.println(m1);
+System.out.println(m2);
+}
+}
+
+----->  Exercise1 (Point Class): A sample test program is given below. Modify the test program to accept input data from a user and try it for different input values. Name the program PointDemo.java.
+
+public class PointTester{
+
+public static void main(String[] args){ Point<Integer> point1 = new Point<Integer>(10, 20); Point<Double> point2 = new Point<Double>(14.5, 15.6); Point<String> point3 = new Point<String>("topleftx", "toplefty");
+
+System.out.println(point1);
+System.out.println(point2);
+System.out.println(point3);
+}
+}		
+
+
+------> Exercise 2 (Generic Stack): The template for GenericStackDemo.java is given below. Fill in the TODO lines of code.
+
+import java.util.*;
+
+public class GenericStackDemo{
+
+public static void main(String[] args){
+
+GenericStack<String> stack1 = new GenericStack<String>(); GenericStack<Integer> stack2 = new GenericStack<Integer>();
+
+//TODO- continue your code here
+
+
+}
+
+
+-------> Exercise3 (Student Records): A sample test program is given below. (It is assumed that you have a separate StudentRecord class.) Fill in the TODO lines.
+
+import java.util.*;
+import java.io.*;
+
+public class Exercise3{
+public static void main(String[] args)throws IOException{
+
+//TODO: Create stack1 to hold StudentRecord Objects
+
+Scanner keyboard = new Scanner(System.in); System.out.print("Enter the filename to read from: "); String filename = keyboard.nextLine();
+
+File file = new File(filename);
+Scanner inputFile = new Scanner(file);
+StringTokenizer token;
+while (inputFile.hasNext()){
+String line = inputFile.nextLine();
+token = new StringTokenizer(line, " ");
+String firstName = token.nextToken();
+String lastName = token.nextToken();
+String IDString = token.nextToken();
+
+//convert String IDString to an Integer Object IDNum Integer IDNum = Integer.valueOf(IDString);
+
+//TODO: Create a StudentRecord Object with the first name, last name //and ID number, push it into stack1
+
+}
+inputFile.close();
+
+//TODO: Continue with remaining steps
+
+}
+}
+
+------> Here’s a simple generics program with a static method:
+
+public class GenericMethodDemo{
+public static void main(String[] args){
+Integer[] integers = {4, 5, 6, 7};
+String[] strings = {“A”, “B”, “C”, “D”};
+GenericMethodDemo<Integer> print(integers);
+GenericMethodDemo<String> print(strings);
+}
+
+public static<T> void print(T[] list){
+for(int i=0; i<list.length; i++)
+System.out.print(list[i] + “ ”);
+System.out.println();
+}
+}
+
+ 
+
+
+
