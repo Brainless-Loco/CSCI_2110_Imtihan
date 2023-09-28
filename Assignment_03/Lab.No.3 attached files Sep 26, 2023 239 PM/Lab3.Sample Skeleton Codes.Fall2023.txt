@@ -1,0 +1,83 @@
+----> Code template to obtain the execution time of your code.
+
+  long startTime, endTime, executionTime;
+  startTime = System.currentTimeMillis();
+
+  //code snippet (or call to the method) here
+
+  endTime = System.currentTimeMillis();
+  executionTime = endTime - startTime;
+
+-----> Exercise 1 (Nth Prime)
+
+/*
+Prime Solution
+*/
+
+/**
+This class tests the code for Exercise1. It calls a method to
+calculate the nth prime and prints information about running time.
+*/
+
+import java.util.*;
+
+public class Prime{
+  public static void main(String[] args){
+    //TO-DO
+  }
+
+  public static long nthPrime(long p){
+    //TO-DO
+  }
+}
+
+------> Exercise 2 (MAtrix Multiplication): The skeleton of the solution should look something like the one given below.
+
+
+/**
+This class tests the code for Exercise 2. It calls a method to 
+multiply two square matrices of size n x n, and prints information about 
+running time.  
+It expands upon a framework provided by Srini.
+*/
+
+//Multiplication of two square matrices of size n X n each
+import java.util.*;
+
+public class MatrixMult{
+    public static void main(String[] args){
+    //TO-DO 
+
+    }
+
+    /* The method for multiplying two matrices */
+    
+     public static double[][] multiplyMatrix(double[][] m1, double[][] m2){
+    //TO-DO
+    }
+}
+
+-------> Exercise 3
+
+/*
+Binary Number Generation
+*/
+
+/**
+This class tests the code for Lab2: Exercise3. It calls a method that accepts a positive integer n and
+generates binary numbers between 0 and 2^n -1. The main method prints information about running time.
+*/
+
+import java.util.*;
+
+public class Binary{
+  public static void main(String[] args){
+    //TODO
+  }
+
+  public static void generateBinary(int n){
+    //TODO
+  }
+}
+
+
