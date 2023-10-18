@@ -1,0 +1,23 @@
+Bug Report
+==========
+
+For each bug, please provide the following information:
+  - Class name
+  - Method name
+  - Test method name
+  - Message produced by the test method
+
+Example:
+Error 0:
+  Class: FloatMatrix
+  Method: get()
+  Test Method: get_unicorn()
+  Message: get did not return a unicorn.
+  Comments: Java does not have a standard Unicorn class
+
+Error 1:
+  Class: FloatMatrix
+  Method: columns()
+  Test Method: multiply()
+  Message: Row number of Product Matrix doesn't match
+  Comments: Expected: 2 but Actual: 3
