@@ -95,8 +95,8 @@ class FloatMatrixTest {
         float[] ansProduct = {22.0f, 28.0f, 49.0f, 64.0f};
         FloatMatrix shouldReturn = new FloatMatrix(ansProduct, 2);
 
-        assertEquals(shouldReturn.columns(), product.columns(),"Row number of Product Matrix doesn't match");
-        assertEquals(shouldReturn.rows(), product.rows(),"Column number of Product Matrix doesn't match");
+        assertEquals(shouldReturn.columns(), product.columns(),"Column number of Product Matrix doesn't match");
+        assertEquals(shouldReturn.rows(), product.rows(),"Row number of Product Matrix doesn't match");
 
         for (int i = 0; i < shouldReturn.rows(); i++) {
             for (int j = 0; j < shouldReturn.columns(); j++) {

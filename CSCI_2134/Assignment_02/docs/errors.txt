@@ -19,5 +19,5 @@ Error 1:
   Class: FloatMatrix
   Method: columns()
   Test Method: multiply()
-  Message: Row number of Product Matrix doesn't match
+  Message: Column number of Product Matrix doesn't match
   Comments: Expected: 2 but Actual: 3
