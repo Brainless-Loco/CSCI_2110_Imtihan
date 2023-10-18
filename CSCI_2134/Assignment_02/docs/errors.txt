@@ -21,3 +21,13 @@ Error 1:
   Test Method: multiply()
   Message: Column number of Product Matrix doesn't match
   Comments: Expected: 2 but Actual: 3
+
+Error 2:
+  Class: Coordinate
+  Method: sub()
+  Test Method: sub()
+  Message: CX coordinate after subtraction isn't correct.
+  Comments: Expected: 5 but Actual: -5
+
+
+
