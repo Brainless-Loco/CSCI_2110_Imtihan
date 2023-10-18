@@ -1,20 +1,3 @@
-Bug Report
-==========
-
-For each bug, please provide the following information:
-  - Class name
-  - Method name
-  - Test method name
-  - Message produced by the test method
-
-Example:
-Error 0:
-  Class: FloatMatrix
-  Method: get()
-  Test Method: get_unicorn()
-  Message: get did not return a unicorn.
-  Comments: Java does not have a standard Unicorn class
-
 Error 1:
   Class: FloatMatrix
   Method: columns()
@@ -29,5 +12,10 @@ Error 2:
   Message: CX coordinate after subtraction isn't correct.
   Comments: Expected: 5 but Actual: -5
 
+Error 3:
+  Class: MarkovChain
+  Method: isValidTransitionMatrix()
+  Test Method: isValidTransitionMatrix()
+  Message: Valid transition matrix marked as invalid ==> expected: <true> but was: <false>
 
 
