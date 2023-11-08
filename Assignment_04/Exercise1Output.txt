@@ -1,0 +1,37 @@
+Input 1:
+
+Height of the tree is: 3
+Number of nodes in the tree is: 6
+
+Inorder:	F	D	B	E	A	C	
+Preorder:	A	B	D	F	E	C	
+Postorder:	F	D	E	B	C	A	
+Level order:	A B C D E F 
+
+And is it height balanced... No.
+
+
+
+Input 2:
+
+Height of the tree is: 2
+Number of nodes in the tree is: 6
+
+Inorder:	D	B	E	A	F	C	
+Preorder:	A	B	D	E	C	F	
+Postorder:	D	E	B	F	C	A	
+Level order:	A B C D E F 
+
+And is it height balanced... Yes!
+
+
+
+Input 3:
+Height of the tree is: 2
+Number of nodes in the tree is: 6
+
+Inorder:	D	B	A	F	C	E	
+Preorder:	A	B	D	C	F	E	
+Postorder:	D	B	F	E	C	A	
+Level order:	A B C D F E 
+
