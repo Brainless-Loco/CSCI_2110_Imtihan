@@ -1,0 +1,11 @@
+Enter data for binary tree:
+emboar unfezant palkia serperior samurott
+Height of the tree is: 2
+Number of nodes in the tree is: 5
+
+Inorder:	serperior	unfezant	samurott	emboar	palkia
+Preorder:	emboar	unfezant	serperior	samurott	palkia
+Postorder:	serperior	samurott	unfezant	palkia	emboar
+Level order:	emboar unfezant palkia serperior samurott
+
+And is it height balanced... Yes!
