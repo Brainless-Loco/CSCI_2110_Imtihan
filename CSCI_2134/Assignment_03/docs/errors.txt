@@ -1,0 +1,59 @@
+Bug Report
+==========
+
+For each bug, please provide the following information:
+  - Class name
+  - Method name
+  - Test method name
+  - Message produced by the test method
+
+Example:
+Error 0:
+  Class: FloatMatrix
+  Method: get()
+  Test Method: get_unicorn()
+  Message: get did not return a unicorn.
+  Comments: Java does not have a standard Unicorn class
+
+Error 1:
+  Class: FloatMatrix
+  Method: zero()
+  Test Method:
+  Message: 129 no. Line that used row number instead of using column number
+  Comments: It was using variable 'M' instead of 'N'. So 'M' was replaced with 'N'
+
+Error 2:
+    Class: RandomWalker
+    Method: getStepDirection()
+    Test Method:
+    Message: 95 & 97 no. Line should have called with negative of STEP_SIZE
+    Comments: For 'S' and 'W', the accumulation should be negative STEP_SIZE
+
+Error 3:
+    Class: Coordinate
+    Method: sub()
+    Test Method:
+    Message: 47 no. Line is returning wrong value
+    Comments: According to the definition the subtrahend and minuend were wrong
+
+Error 4:
+    Class: FloatMatrix
+    Method: multiply()
+    Test Method:
+    Message: Null case wasn't handled
+    Comments: Argument Matrix can be null and this case was handled
+
+Error 5:
+    Class: MarkovChain
+    Method: isValidTransitionMatrix()
+    Test Method:
+    Message: method rows() were being used instead of columns()
+    Comments:
+
+Error 6:
+    Class: RandomWalker
+    Method: isValidTransitionMatrix()
+    Test Method:
+    Message: According to the definition (comment wise), this line has to be added  'if(N>0) path.add(curPos);'
+    Comments:
+
