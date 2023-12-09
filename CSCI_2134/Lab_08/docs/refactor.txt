@@ -1,0 +1,50 @@
+List of Refactorings
+====================
+
+Name/Banner# of Developer 1:
+Name/Banner# of Developer 2:
+
+Refactorings:
+=============
+
+0. EXAMPLE:  
+   File: SpressoBot.java, ChickenBot.jaba, AngryBot.java, TimBot.java
+   Location (method/approx. line #): getNextMove()
+   Issue Idetified: Common code to check if move will result in 
+                    energy use and decrement energyLevel if that 
+                    is the case
+   Description of fix:  Push the common code into TimBot.java, creating a
+                        protected method to be used instead.
+   Implemented: Yes (Completely, all tests pass)
+
+1. File:
+   Location (method/approx. line #):
+   Issue Idetified:
+   Description of fix:
+   Implemented:
+
+2. File:
+   Location (method/approx. line #):
+   Issue Idetified:
+   Description of fix:
+   Implemented:
+
+3. File:
+   Location (method/approx. line #):
+   Issue Idetified:
+   Description of fix:
+   Implemented:
+
+4. File:
+   Location (method/approx. line #):
+   Issue Idetified:
+   Description of fix:
+   Implemented:
+
+5. File:
+   Location (method/approx. line #):
+   Issue Idetified:
+   Description of fix:
+   Implemented:
+
+
